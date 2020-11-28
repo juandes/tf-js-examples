@@ -3,7 +3,7 @@ const toxicity = require('@tensorflow-models/toxicity');
 const express = require('express');
 
 const threshold = 0.9;
-const port = 8081;
+const port = process.env.PORT || 8080;
 
 async function runServer() {
   const model = await toxicity.load(threshold);
