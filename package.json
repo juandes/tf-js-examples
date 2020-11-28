@@ -1,0 +1,11 @@
+{
+  "name": "tf-js-examples",
+  "version": "1.0.0",
+  "description": "A collection of examples about TensorFlow.js ",
+  "author": "",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

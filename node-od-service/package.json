@@ -1,0 +1,13 @@
+{
+    "name": "tfjs-node-toxicity-server",
+    "version": "0.0.1",
+    "description": "A server that exposes a Toxicity detection model",
+    "scripts": {
+        "serve": "node index.js"
+    },
+    "dependencies": {
+        "@tensorflow/tfjs-node": "^2.7.0",
+        "@tensorflow-models/toxicity": "^1.2.2",
+        "express": "^4.17.1"
+    }
+}
