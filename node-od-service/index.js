@@ -13,11 +13,13 @@ async function runServer() {
 
   app.post('/prediction', (req, res) => {
     model.classify([req.body.sentence]).then((predictions) => {
+      // Send the response to the user
       res.json({
         predictions,
       });
     });
   });
+
   app.listen(port, () => {
     console.log(`Listening on port ${port}`);
   });
